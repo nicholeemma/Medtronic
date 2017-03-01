@@ -1,4 +1,6 @@
 
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -47,7 +49,7 @@ main{
 	margin-bottom: 1.5em;
 }
 form{
-	text-align: center;
+	margin-left:20%;
 }
 p{
 	text-indent: 2em;
@@ -64,6 +66,22 @@ word-break: normal;
 	color: white;
 	line-height: 20px;
 	width: 100%;
+}
+th{
+	background-color: black;
+	color: white;
+}
+#tdb{
+	background-color: grey;
+}
+label{
+	display: inline-block;
+	text-align: right;
+	width: 30%;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
 }
 </style>
     <meta charset="utf-8">
@@ -170,8 +188,8 @@ word-break: normal;
          <td>content</td>
          </tr>
          <tr>
-         <td>content</td>
-         <td colspan="2">content</td>
+         <td colspan="3" id="tdb">content
+         content</td>
          </tr></table>
  
  
@@ -194,28 +212,28 @@ word-break: normal;
 
  
 
- gender
+ <label>gender</label>
  <input type="radio" name="gender">man
  <input type="radio" name="gender">woman
 <br>
- city
+ <label>city</label>
  <select name="city">
      <option>shanghai</option>
      <option>beijing</option>
      <option>suzhou</option>
  </select>
- <br>
+ <br><label>hobby</label>
  <input type="checkbox">badminton &nbsp;
  <input type="checkbox">archery &nbsp;
  <input type="checkbox">skating &nbsp;
  <input type="checkbox">basket &nbsp;
- <br>
+ <br><label>opinion</label>
  <textarea >sdfsd</textarea>
- <br>
+ <br> </form>
  <input type="submit" name="sumbit" class="button">
  
 
- </form>
+
  </div>
     </div>
     </main>
@@ -223,3 +241,4 @@ word-break: normal;
 
     </html>
 
+>>>>>>> refs/remotes/origin/master
