@@ -1,0 +1,88 @@
+article{
+	margin-left: 2em;
+}
+header{
+	height: 5em;
+	width: auto;
+	background-color: black;
+	color: white;
+	padding: 1em;
+}
+.float{
+	float: right;
+	font-size: 2em;
+	color: yellow;
+	text-decoration: none;
+	margin-right: 1em;
+}
+a{
+	color: yellow;
+	text-decoration: none;
+}
+footer{
+	height: 5em;
+	width: auto;
+	background-color: black;
+	color: white;
+	padding: 0.5em;
+	text-align: center;
+}
+img{
+	width: 25em;
+	height: 18em;
+}
+main{
+	background-color: grey;
+	padding: 1.5em;
+}
+.content{
+	background-color: white;
+	box-shadow: 5px 5px 5px black;
+	padding: 0.5em;
+	margin-bottom: 1.5em;
+	width: 60%;
+}
+.cebian{
+	background-color: white;
+	box-shadow: 5px 5px 5px black;
+	padding: 0.5em;
+	margin-bottom: 1.5em;
+	width: 35%;
+	float:right;
+
+}
+form{
+	margin-left:20%;
+}
+p{
+	text-indent: 2em;
+	word-wrap: break-word; 
+word-break: normal;
+}
+.button{
+	padding:6px 16px;
+	border:1px solid #A9A9A9;
+	background: #A9A9A9 linear-gradient(#DCDCDC,#A9A9A9);
+	border-radius: 4px;
+	box-shadow: 0 -1px 1px #335166;
+	font-size: 15px;
+	color: white;
+	line-height: 20px;
+	width: 100%;
+}
+th{
+	background-color: black;
+	color: white;
+}
+#tdb{
+	background-color: grey;
+}
+label{
+	display: inline-block;
+	text-align: right;
+	width: 30%;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
