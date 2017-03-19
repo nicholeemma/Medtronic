@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style type="text/css">
+
+.father{
+position:fixed;
+height:200px;
+width:400px;
+top:calc(50% - 100px);
+left:calc(50% - 200px);
+background-color: #ccc;
+}
+.left-top{
+	position:absolute;
+	background-color: #FC0;
+	height: 50px;
+	width: 50px;
+	border-radius:0 0 50px 0;
+	left:0;
+	top:0;
+	
+}
+.left-bottom{
+	position:absolute;
+	background-color: #FC0;
+	height: 50px;
+	width: 50px;
+	border-radius:0 50px 0 0;
+	top:150px;
+
+	/*left:0;
+	bottom:0;*/
+	
+}
+.right-top{
+	position: absolute;
+	background-color: #FC0;
+	height: 50px;
+	width: 50px;
+	border-radius:  0 0 0 50px;
+	right: 0;
+	top: 0;
+}
+.right-bottom{
+	position: absolute;
+	background-color: #FC0;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px 0 0 0;
+	right: 0;
+	bottom: 0;
+}
+</style>
+    <meta charset="UTF-8">
+    <title> 定位和居中问题</title>
+</head>
+<body>
+     <div class="father">
+         <div class="left-top"></div>
+         <div class="right-bottom"></div>
+         <div class="right-top"></div>
+         <div class="left-bottom"></div>
+     </div>
+</body>
+</html>
