@@ -44,9 +44,9 @@
     margin-top: -4px;
     margin-bottom: 5px;
     border: 0;
-    border-top: 2px solid #0D9344;
-    margin-left: -15px;
-    margin-right: -15px;
+    border-top: 1px solid #0D9344;
+    opacity: 0.5;
+    
     }
     
     .busno{
@@ -74,7 +74,7 @@
 <body >
 <div class="container-fluid">	
   <header>
-    <img style="width: 50px; height: 60px;" src="10.png">
+    <img style="width: 50px; height: 60px; margin-right: -25px;" src="10.png">
     &nbsp;&nbsp;交&nbsp;&nbsp;通<br>
     <hr>
     <p>TRANSPORTATION</p>
@@ -89,24 +89,24 @@
     	height: 32px;
     	float: left;" src="11.png">
 <p class="head"  ><b>&nbsp;&nbsp;公共交通服务</b></br></p>
-<div id="ball">
+
 
 <p style="font-size:1.2em;"><b><img src="16.png" style="width: 20px; height: 20px;">&nbsp;公交车</b></p>
-<div style="float: left;">
-	<p  class="busno">
-	&nbsp;84路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首/末班车时刻
-	</p>
 
-	<p class="busdetail"">
-	济阳路泳耀路<——>永泰路东明路
+	<p class="busno" style="float: right;">首/末班车时刻&nbsp;</p><p  class="busno">
+	&nbsp;84路</p>
+
+	<p class="busdetail" style="float: right;">——>永泰路东明路</p>
+	<p class="busdetail">
+	济阳路泳耀路<——
 	</p>
 	<p class="busdetail">06:25-22:25 
 	</p>
 
-	<p class="busno">&nbsp;163路&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;    首/末班车时刻
-	</p>
+	<p class="busno" style="float: right;">首/末班车时刻&nbsp;</p><p class="busno">&nbsp;163路
+	<p class="busdetail" style="float: right;">——>江月路地铁站</p>
 	<p class="busdetail">
-	东方体育中心<——>江月路地铁站
+	东方体育中心<——
 	</p>
 	<p class="busdetail">05:55-22:00
 	</p>
@@ -115,42 +115,45 @@
 <p style="font-size:1.2em;"><img src="14.png" style="width: 20px; height: 20px;"><b>&nbsp;东方体育中心站</b></p>
 
 
-    <p class="busno" style="background-color:#B72664;">&nbsp;6号线&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首/末班车时刻
+    <p class="busno" style="float: right;background-color:#B72664;">首/末班车时刻&nbsp;</p>
+    <p class="busno" style="background-color:#B72664;">&nbsp;6号线
     </p>
-	<p class="busdetail">
-	往东方体育中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;往港城路
+	<p class="busdetail" style="float: right;">往港城路
+	</p><p class="busdetail">
+	往东方体育中心
 	</p>
-	<p class="busdetail">
-	05:30-22:30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05:30-22:30
-	</p>
-
-	<p class="busno" ">
-	&nbsp;8号线&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首/末班车时刻
-	</p>
-	<p class="busdetail">
-	往市光路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;往沈杜公路
-	</p>
-	<p class="busdetail">
-	05:47-22:47&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;06:19-23:19
+	<p class="busdetail" style="float: right;">05:30-22:30</p><p class="busdetail">
+	05:30-22:30
 	</p>
 
-	<p class="busno" style="background-color:#6D1F2C;">&nbsp;11号线&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首/末班车时刻</p>
-	<p class="busdetail">
-	往嘉定北&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;往迪士尼</p>
-	<p class="busdetail">
-	06:40-22:52&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05:53-22:18
+	<p class="busno" style="float: right;">首/末班车时刻&nbsp;</p><p class="busno" ">
+	&nbsp;8号线
 	</p>
+	<p class="busdetail" style="float: right;">往沈杜公路</p>
 	<p class="busdetail">
-	往嘉定北&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;05:53-22:18
+	往市光路&nbsp;
+	</p>
+	<p class="busdetail" style="float: right;">06:19-23:19</p><p class="busdetail">
+	05:47-22:47
+	</p>
+
+	<p class="busno" style="float: right;background-color:#6D1F2C;">首/末班车时刻&nbsp;</p><p class="busno" style="background-color:#6D1F2C;">&nbsp;11号线</p>
+	<p class="busdetail" style="float: right;">往迪士尼</p><p class="busdetail">
+	往嘉定北</p>
+	<p class="busdetail" style="float: right;">05:53-22:18</p><p class="busdetail">
+	06:40-22:52
+	</p>
+	<p class="busdetail" style="float: right;">05:53-22:18</p><p class="busdetail">
+	往嘉定北
 	</p>
  <img class="pic" style="width: 32px; 
     	height: 32px;
-    	float: left;" src="13.png">
+    	float: left;" src="13.PNG">
 <p class="head" ><b>&nbsp;&nbsp;共享班车服务</b></br></p>
 <img class="pic" style="width: 32px; 
     	height: 32px;
-    	float: left;" src="12.png"><p class="head" style="width: 127px;"><b>&nbsp;&nbsp;停车服务</b></br></p></div>
-</div>
+    	float: left;" src="12.PNG"><p class="head" style="width: 127px;"><b>&nbsp;&nbsp;停车服务</b></br></p>
+
 </div>
 
 
